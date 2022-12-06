@@ -1,0 +1,145 @@
+nav li{
+    display: inline;
+}
+#logo-block img{
+    height:10%;
+    width: 10%;
+    padding: auto;
+}
+.left-column{
+    float: left;
+    width: 70%;
+}
+.left-column img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  margin-top:20px;
+}
+.right-column{
+    float: right;
+    width: 20%; 
+    padding-left: 0%;
+    padding-right: 5%;
+
+}
+.right-column p{
+    font-size: 150%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.page-header{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-top: 0;
+    border-right:0;
+    border-left:0;
+    border-bottom: 5px, black;
+    border-style: solid;
+}
+#logo-block {
+    display: inline-flex;
+    padding: 0px 0; 
+    vertical-align: top;
+    
+}
+.navbutton{
+    padding-right:20%;
+    font-size:15px;
+    font-family:Arial;
+    width:140px;
+    height:50px;
+    border-width:1px;
+    color:#fff;
+    border-color:#566963;
+    font-weight:bold;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    background:#36997e;
+}
+.navbutton:hover{
+    background:#48cca8;
+}
+header{
+    background-color: #48cca8;
+}
+nav{
+    background-color: white;
+}
+footer{
+    float: right;       /*Makes the footer display properly at the bottom of the screen. Not sure why or how it works, but it sure does.*/
+    width: 100%;
+    background-color: #48cca8;
+    margin-top: 20px;
+}
+
+
+/* Style inputs with type="text", select elements and textareas. Stolen code from W3Schools. TODO: make the "hitbox" to bring u the datepicker larger, if possible*/
+input[type=text], select, textarea, input[type=date], input[type=number] {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #36997e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #48cca8;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .triplecolumn{
+      float: left;
+      width: 33%;
+  }
+  .triplecolumn h1{
+      text-align: center;
+  }
+
+  .columnblock{
+    text-align: center;
+    width: 95%;
+    border:5px, solid, #48cca8;
+    border-collapse: collapse;
+    border-style:inset;
+    border-left: 0px;
+    border-top: 0px;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+  }
+  .columnblock img{
+    Width: 90%;
+    margin: auto;
+    display: block;
+  }
+  .columnblock p{
+    margin: 5%;
+  }
+#right-column .columnblock{
+    border-right: 0px;
+    border-right-style: hidden;
+}
